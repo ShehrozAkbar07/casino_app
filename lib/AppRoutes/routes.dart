@@ -119,7 +119,7 @@ class AppRoutes {
     GetPage(name: otpverification, page: () => const OtpVerification()),
     GetPage(name: register, page: () => const Register()),
     GetPage(name: onboard, page: () => const OnBoardingScreen()),
-    GetPage(name: login, page: () => const Login()),
+    // GetPage(name: login, page: () => const Login()),
     GetPage(name: splash, page: () => const SplashScreen()),
   ];
 }
